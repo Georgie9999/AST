@@ -1,0 +1,21 @@
+for i in range(int(input())):
+    n = int(input())
+    if n>19:
+        print("NO")
+    else:
+        T = [3**i for i in range(n)]
+        print("YES")
+        print(*T)
+*****
+_ = int(input())
+for i in range(_):
+  n = int(input())
+  if n >= 18:
+      print("NO")
+  else:
+    print("YES")
+    for j in range(n):
+        print(3**j, end=" ")
+    print()
+*****
+print(1+2)
